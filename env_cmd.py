@@ -39,5 +39,5 @@ def main(read_environ):
             _, name = sys.argv[0].rsplit(os.sep, 1)
             raise SystemExit("Usage: {} <subcommand> [OPTIONS]".format(name))
 
-        os.execvpe(sys.argv[1], sys.argv[1:], read_environ())
+        os.execvp(sys.argv[1], sys.argv[1:], read_environ())
     return func

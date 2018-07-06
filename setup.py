@@ -6,7 +6,7 @@ with open('README.rst', 'r') as f:
 
 setup(
     name='env-cmd',
-    version='1.0',
+    version='1.1',
     url='https://github.com/brutasse/env-cmd',
     license='BSD',
     author=u'Bruno Renié',
